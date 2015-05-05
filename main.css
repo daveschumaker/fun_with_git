@@ -68,8 +68,19 @@ section {
 }
 
 article p {
-	line-height: 1.5;
-	padding: 10px 10px 0px 0px;
+	line-height: 1.6;
+	padding: 20px 0px 0px 0px;
+}
+
+a:link, a:visited {
+	border-bottom: 1px dotted;
+	color: #001842;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+	text-decoration: none;
 }
 
 #content {
