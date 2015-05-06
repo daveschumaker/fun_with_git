@@ -169,8 +169,12 @@ ul {
 
 /* Mobile first queries based on GetSkeleton framework */
 
-/* Larger than mobile */
-@media (min-width: 300px) {
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+	article {
+		font-size: .8em;
+	}	
+
 	section {
 		padding: 0px 10px 25px 10px;
 	}
@@ -199,8 +203,25 @@ ul {
 
 }
 
+/* iPhone 6 Landscape*/
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : landscape) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{
+	article {
+		font-size: .6em;
+	}	
+
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
+
+	article {
+		font-size: .8em;
+	}	
 
 	#title {
 		font-size: 3em;		
