@@ -55,16 +55,16 @@ table {
 * Layout page
 **/
 
-article {
-	font-size: .8em;
-}
-
 section {
 	margin: 0px;
 	max-width: 900px;
-	padding: 0 50px 25px 50px;
+	padding: 0px 50px 25px 50px;
 	font-family: 'Alegreya', serif;
 	font-size: 1.5em;
+}	
+
+article {
+	font-size: .8em;
 }
 
 article p {
@@ -166,3 +166,72 @@ ul {
 	margin: 30px 30px 15px 0px;
 	text-transform: uppercase;
 }
+
+/* Mobile first queries based on GetSkeleton framework */
+
+/* Larger than mobile */
+@media (min-width: 300px) {
+	section {
+		padding: 0px 10px 25px 10px;
+	}
+
+	#title {
+		font-size: 2em;		
+	}
+
+	.quote-left, .quote-right {
+		display: block;
+		font-style: italic;
+		float: none;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 0px;
+		margin-left: auto; 
+		margin-right: auto;		
+		max-width: 100%;
+	}
+
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+	#title {
+		font-size: 3em;		
+	}
+
+	.quote-right {
+		display: block;
+		float: right;
+		font-size: 1.3em;
+		font-weight: bold;
+		line-height: 1.2;
+		max-width: 45%;
+		margin: 30px 0px 15px 30px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	.quote-left {
+		display: block;
+		float: left;
+		font-size: 1.3em;
+		font-weight: bold;
+		line-height: 1.2;
+		max-width: 45%;
+		margin: 30px 10px 15px 0px;
+		text-align: left;
+		text-transform: uppercase;
+	}	
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
