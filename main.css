@@ -85,7 +85,19 @@ a:hover {
 }
 
 img {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
 	max-width: 100%;
+}
+
+code {
+	display: block;
+	background-color: #F1F1F1;
+	line-height: 1.4;
+  font-family: monospace, monospace;
+  font-size: 15px;
+  font-weight: normal;	
 }
 
 .image-credit {
@@ -98,7 +110,7 @@ img {
 
 #title {
 	font-size: 3em;
-	font-style: bold;
+	font-weight: bold;
 	margin: 0px;
 	padding: 25px 0px 25px 0px;
 }
@@ -109,6 +121,15 @@ img {
 	margin: 0px;
 	padding: 0px 0px 25px 0px;
 }
+
+/* Headings */
+h3 {
+	font-weight: bold;
+	padding: 30px 0px 15px 0px;
+	text-transform: uppercase;
+}
+
+/* Lists */
 
 ol {
 	line-height: 1.5;
