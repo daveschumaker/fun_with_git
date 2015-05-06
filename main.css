@@ -110,6 +110,19 @@ img {
 	padding: 0px 0px 25px 0px;
 }
 
+ol {
+	line-height: 1.5;
+  list-style-position: inside;
+  list-style-type: decimal;	
+}
+
+ul {
+	line-height: 1.5;
+	list-style-image: none;
+  list-style-position: inside;	
+	list-style-type: circle;
+}
+
 /* Pull Quotes */
 .quote-right {
 	display: block;
